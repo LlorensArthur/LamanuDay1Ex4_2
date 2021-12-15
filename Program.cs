@@ -16,7 +16,7 @@ Console.WriteLine();
 Console.WriteLine(languageList[4]);
 Console.WriteLine();
 languageList.Remove("Bootstrap");
-languageList[2] = "Javascript";
+languageList[languageList.IndexOf("Javacrit")] = "Javascript";
 languageList.Add("C");
 foreach (var item in languageList)
 {
